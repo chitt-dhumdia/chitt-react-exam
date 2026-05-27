@@ -63,11 +63,7 @@ export const updateProduct = createAsyncThunk("products/updateProduct",async (up
 
 )
 
-export const deleteProduct = createAsyncThunk(
-
-  "products/deleteProduct",
-
-  async (id, { rejectWithValue }) => {
+export const deleteProduct = createAsyncThunk("products/deleteProduct",async (id, { rejectWithValue }) => {
 
     try {
 

@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useLocation } from 'react-router-dom'
 import {addProduct,updateProduct} from '../features/product/productslice'
+import { toast } from 'react-toastify';
 
+import { useNavigate } from 'react-router-dom'
 const Add_Product = () => {
 
   const dispatch = useDispatch()
@@ -39,13 +41,14 @@ const Add_Product = () => {
 
       dispatch(updateProduct(addProducts))
 
-      alert("Product Updated Successfully")
+      toast.info("Product Updated Successfully")
+      navigate("/product-item")
 
     } else {
 
       dispatch(addProduct(addProducts))
 
-      alert("Product Added Successfully")
+      toast.success("Product Added Successfully")
 
     }
 

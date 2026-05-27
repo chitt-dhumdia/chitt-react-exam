@@ -5,9 +5,12 @@ import Home from './pages/Home'
 import Add_Product from './components/Add_Product'
 import Product_Item from './components/Product_Item'
 
+import { toast, ToastContainer } from 'react-toastify';
+
 const App = () => {
   return (
     <>
+      <ToastContainer />
 
       <Navbar/>
       <Routes>

@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/047/249/338/small/sweater-shirt-hoodie-isolated-png.png",
+      "category": "Clothes",
+      "price": "699",
+      "title": "Red Hoodie",
+      "id": "cAWPJzqe42Q"
+    },
+    {
+      "title": "sony-camera",
+      "price": "50000",
+      "image": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-madebymath-90946.jpg&fm=jpg",
+      "category": "Electronics",
+      "id": "1tHm4q9m9Rs"
+    },
+    {
+      "title": "namkeen chakri",
+      "price": "109",
+      "image": "https://heerson.com/cdn/shop/files/Heerson_Bhajani_Chakli._Premium_Maharashtrian_snack..jpg?v=1759777511",
+      "category": "Snacks",
+      "id": "x7X4IXJpfjA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
